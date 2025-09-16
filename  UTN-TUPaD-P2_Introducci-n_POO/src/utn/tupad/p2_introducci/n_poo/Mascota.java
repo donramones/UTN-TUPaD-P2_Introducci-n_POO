@@ -9,5 +9,16 @@ package utn.tupad.p2_introducci.n_poo;
  * @author rivar
  */
 public class Mascota {
+    String nombre;
+    String especie;
+    int edad;
+    
+    void mostrarInfo(){
+        System.out.println("nombre mascota: " + nombre + " " + "especie: " +  especie + " " + "Anios " + edad);
+    }
+    void cumpliAnios(){
+        edad ++;
+        
+    }
     
 }
