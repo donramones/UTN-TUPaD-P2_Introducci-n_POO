@@ -20,7 +20,7 @@ public class Principal {
         //asignar valor a los atributos
         
         est1.nombre = "Agu";
-        est1.apellido ="Rivarola";
+        est1.apellido ="Ramon";
         est1.curso = "Programacio_II";
         est1.calificacion = 7;
         
