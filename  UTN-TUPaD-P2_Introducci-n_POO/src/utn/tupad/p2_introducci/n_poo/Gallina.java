@@ -9,5 +9,20 @@ package utn.tupad.p2_introducci.n_poo;
  * @author rivar
  */
 public class Gallina {
+    int edad;
+    int huevosPuestos;
+    int idGallina;
+    
+    void ponerHuevos () {
+        huevosPuestos ++;
+    }
+    void envejecer () {
+        edad ++;
+    }
+    void mostrarEstado(int idGallina){
+        System.out.println("La gallina " + idGallina + " ha puesto" + huevosPuestos + " y tiene " + edad + " anios");
+    }
+        
+        
     
 }
